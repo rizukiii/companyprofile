@@ -9,6 +9,12 @@
         <!-- Recent Blog Posts Section -->
         <section id="blog" class="recent-blog-posts section light-background">
 
+        <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+            <h2>Detail Blog</h2>
+
+        </div><!-- End Section Title -->
+
             <div class="container">
 
                 <div class="row gy-5">

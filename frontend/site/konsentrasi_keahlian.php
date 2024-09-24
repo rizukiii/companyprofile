@@ -10,6 +10,12 @@
         <!-- Constructions Section -->
         <section id="konsentrasi_keahlian" class="constructions section">
 
+        <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+            <h2>Konsentrasi Keahlian</h2>
+
+        </div><!-- End Section Title -->
+
             <div class="container">
 
                 <div class="row gy-4">
