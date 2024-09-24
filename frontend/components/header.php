@@ -17,8 +17,8 @@
         <li><a href="#blog">Blog</a></li>
         <li class="dropdown"><a href="#"><span>Profil Sekolah</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
-            <li><a href="../site/profil_sekolah.php">Profil Data Sekolah</a></li>
-            <li><a href="#">Kepala Sekolah</a></li>
+            <li><a href="../site/kepala_sekolah.php">Kepala Sekolah</a></li>
+            <li><a href="#">Profil Data Sekolah</a></li>
             <li><a href="#">Visi & Misi</a></li>
             <li class="dropdown"><a href="#"> <span>Guru</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>

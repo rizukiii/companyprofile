@@ -12,7 +12,7 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Profil Data Sekolah</h2>
+            <h2>Kepala Sekolah</h2>
 
         </div><!-- End Section Title -->
 
