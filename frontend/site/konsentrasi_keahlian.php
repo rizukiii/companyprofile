@@ -42,7 +42,7 @@
 
 
 
-        <?php include "../components/footer.php" ?>
+        <?php include "../components/footer_kecil.php" ?>
 
         <?php include "../components/scrolltop.php" ?>
 
