@@ -19,7 +19,7 @@
           <ul>
             <li><a href="../site/kepala_sekolah.php">Kepala Sekolah</a></li>
             <li><a href="../site/profil_data_sekolah.php">Profil Data Sekolah</a></li>
-            <li><a href="#">Visi & Misi</a></li>
+            <li><a href="../site/visi_misi.php">Visi & Misi</a></li>
             <li class="dropdown"><a href="#"> <span>Guru</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#">Guru</a></li>
