@@ -38,11 +38,9 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Akses Cepat</h4>
           <ul>
-            <li><a href="#">Profil Data Sekolah</a></li>
-            <li><a href="#">Struktur Organisasi</a></li>
-            <li><a href="#">Sejarah</a></li>
-            <li><a href="#">Kepala Sekolah</a></li>
-            <li><a href="#">Visi & Misi</a></li>
+            <li><a href="../site/profil_data_sekolah.php">Profil Data Sekolah</a></li>
+            <li><a href="../site/kepala_sekolah.php">Kepala Sekolah</a></li>
+            <li><a href="../site/visi_misi.php">Visi & Misi</a></li>
           </ul>
         </div>
 
