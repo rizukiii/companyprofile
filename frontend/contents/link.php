@@ -47,9 +47,6 @@
               <div class="testimonial-item">
                 <img src="../../storages/images/link/<?= $item->foto ?>" class="testimonial-img shadow-sm" alt="foto link">
                 <h3><?= $item->nama ?></h3>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span><?= $item->deskripsi ?></span>
