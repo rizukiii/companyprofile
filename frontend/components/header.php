@@ -22,7 +22,7 @@
             <li><a href="../site/visi_misi.php">Visi & Misi</a></li>
             <li class="dropdown"><a href="#"> <span>Guru</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="#">Guru</a></li>
+                <li><a href="../site/guru.php">Guru</a></li>
               </ul>
             </li>
           </ul>
