@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
 
       <?php include "../actions/beranda_carousel/showAll.php";
       $no = 1;
