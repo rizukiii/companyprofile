@@ -26,7 +26,7 @@
 
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                                 <div class="portfolio-content h-100">
-                                    <img src="../../storages/images/guru/<?= $item->foto ?>" class="img-fluid" alt="">
+                                    <img src="../../storages/images/guru/<?= $item->foto ?>" class="img-fluid" alt="" style="height: 600px;">
                                     <div class="portfolio-info">
                                         <p><?= $item->nama ?></p>
                                         <a href="../../storages/images/guru/<?= $item->foto ?>" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>

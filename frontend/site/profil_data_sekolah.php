@@ -18,11 +18,11 @@
 
         <div class="container">
 
-            <div class="row gy-4  d-flex">
+            <div class="row gy-4 d-flex">
 
                 <?php include "../actions/profil_data_sekolah/show.php" ?>
 
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling mx-auto">
                     <div class="portfolio-content h-100">
                         <img src="../../storages/images/profil_data_sekolah/<?= $profil_data_sekolah->foto ?>" class="img-fluid" alt="">
                     </div>
