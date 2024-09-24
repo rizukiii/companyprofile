@@ -17,26 +17,14 @@
         <li><a href="#blog">Blog</a></li>
         <li class="dropdown"><a href="#"><span>Profil Sekolah</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
-            <li><a href="#">Profil Data Sekolah</a></li>
-            <!-- <li><a href="#">Struktur Organisasi</a></li>
-            <li><a href="#">Sejarah</a></li> -->
+            <li><a href="../site/profil_sekolah.php">Profil Data Sekolah</a></li>
             <li><a href="#">Kepala Sekolah</a></li>
             <li><a href="#">Visi & Misi</a></li>
-            <!-- <li><a href="#">Fasilitas & Sarpras</a></li> -->
             <li class="dropdown"><a href="#"> <span>Guru</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#">Guru</a></li>
-                <!-- <li><a href="#">Tenaga Kependidikan</a></li> -->
               </ul>
             </li>
-            <!-- <li class="dropdown"><a href="#"> <span>Siswa</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Organisasi Siswa</a></li>
-                <li><a href="#">Ekstrakurikuler</a></li>
-              </ul>
-            </li> -->
-            <!-- <li><a href="#">Kerjasama</a></li>
-            <li><a href="#">Perpustakaan -></a></li> -->
           </ul>
           <li><a href="#contact">Contact</a></li>
         </li>
