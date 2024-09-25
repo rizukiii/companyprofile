@@ -5,7 +5,7 @@ $section = 'login' ?>
 
 <body>
 
-    <?php include "../../components/header.php" ?>
+    <?php include "../../components/header_login.php" ?>
 
     <?php include "../../components/sidebar.php" ?>
 
@@ -15,7 +15,7 @@ $section = 'login' ?>
         <div class="col-12">
             <div class="card">
                 <div class="card-body mt-3">
-                <?php include "../../components/alert.php" ?>
+                    <?php include "../../components/alert.php" ?>
                     <form action="../../actions/account/signin.php" method="post">
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
