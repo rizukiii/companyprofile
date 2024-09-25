@@ -120,6 +120,13 @@
         <span>Footer</span>
       </a>
     </li><!-- End Blank Page Nav -->
+
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="">
+        <i class="bi bi-lock"></i>
+        <span>Account</span>
+      </a>
+    </li><!-- End Blank Page Nav -->
   </ul>
 
 </aside><!-- End Sidebar-->
