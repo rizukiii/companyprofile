@@ -18,7 +18,7 @@
         while ($item = $result->fetch_object()) : ?>
 
           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-            <div class="portfolio-content h-100">
+            <div class="portfolio-content">
               <img src="../../storages/images/prestasi_foto/<?= $item->foto ?>" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App <?= $item->id ?></h4>
@@ -26,8 +26,11 @@
               </div>
             </div>
           </div><!-- End Portfolio Item -->
-          <?php endwhile; ?>
+        <?php endwhile; ?>
       </div><!-- End Portfolio Container -->
-    </div><a href="../site/prestasi.php" class="no blue-line text-center mt-5" data-aos="fade-up" data-aos-delay="200">Lihat Selengkapnya...</a>
+    </div>
+    <div class="d-flex">
+      <a href="../site/prestasi.php" class="no blue-line text-center mt-5 mx-auto" data-aos="fade-up" data-aos-delay="300">Lihat Selengkapnya...</a>
+    </div>
   </div>
 </section><!-- /Projects Section -->

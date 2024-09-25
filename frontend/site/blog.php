@@ -10,8 +10,8 @@
     <!-- Recent Blog Posts Section -->
     <section id="blog" class="recent-blog-posts section light-background">
 
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
             <h2>Blog</h2>
 
         </div><!-- End Section Title -->
@@ -44,13 +44,11 @@
                                         <i class="bi bi-folder2"></i> <span class="ps-2"><?= $item->sumber ?></span>
                                     </div>
                                 </div>
-
                                 <hr>
-
-                                <a href="./blog_detail.php?id=<?= $item->id ?>" class="readmore stretched-link d-flex align-items-center"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
+                                <div class="d-flex">
+                                    <a href="./blog_detail.php?id=<?= $item->id ?>" class="readmore stretched-link justify-content-center align-items-end"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                                </div>
                             </div>
-
                         </div>
                     </div><!-- End post item -->
 
