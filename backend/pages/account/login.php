@@ -56,7 +56,7 @@ $section = 'login' ?>
                         <button
                             type="submit"
                             class="btn btn-primary form-control"
-                            name="button"
+                            name="tombol"
                             value="Login">
                             <i class="fa-solid fa-check"></i>
                         </button>

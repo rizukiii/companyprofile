@@ -15,19 +15,17 @@ $section = 'register' ?>
 
         <div class="col-12">
             <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Register</h3>
-                </div>
-                <div class="card-body">
-                    <form action="../actions/signup.php" method="post">
+            <?php include "../../actions/account/guestcheck.php" ?>
+                <div class="card-body mt-3">
+                    <form action="../../actions/signup.php" method="post">
                         <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
+                            <label for="username" class="form-label">Username</label>
                             <input
                                 type="text"
                                 class="form-control"
-                                name="name"
-                                id="name"
-                                placeholder="Masukan Name Anda" />
+                                name="username"
+                                id="username"
+                                placeholder="Masukan Username Anda" />
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
@@ -36,7 +34,7 @@ $section = 'register' ?>
                                 class="form-control"
                                 name="email"
                                 id="email"
-                                placeholder="Masukan email anda" />
+                                placeholder="Masukan Email Anda" />
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Password</label>
@@ -49,15 +47,13 @@ $section = 'register' ?>
                         </div>
                         <button
                             type="submit"
-                            class="btn btn-primary"
-                            name="button"
+                            class="btn btn-primary form-control"
+                            name="tombol"
                             value="Register">
-                            Register
+                            <i class="fa-solid fa-check"></i>
                         </button>
-
                     </form>
                 </div>
-                <div class="card-footer"></div>
             </div>
         </div>
 
