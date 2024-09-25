@@ -1,8 +1,3 @@
-<?php include "../../app.php" ?>
-
-<!doctype html>
-<html lang="en">
-
 <?php include "../../components/head.php" ?>
 
 <body style="background-image: url(https://i.pinimg.com/originals/14/da/22/14da22139098fbe4dcaff18fc77e39d1.jpg);object-fit:cover">
