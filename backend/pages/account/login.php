@@ -12,12 +12,11 @@ $section = 'login' ?>
     <?php include "../../components/breadcrumb.php" ?>
 
     <div class="row">
-
         <div class="col-12">
             <div class="card">
                 <div class="card-body mt-3">
                 <?php include "../../components/alert.php" ?>
-                    <form action="../actions/signin.php" method="post">
+                    <form action="../../actions/signin.php" method="post">
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input
@@ -25,7 +24,7 @@ $section = 'login' ?>
                                 class="form-control"
                                 name="email"
                                 id="email"
-                                placeholder="Masukan email anda"
+                                placeholder="Masukan Email Anda"
                                 value="<?= isset($_SESSION['value_email']) ? $_SESSION['value_email'] : '' ?>" />
                             <!-- untuk menghapus data value_email yang ada di session -->
                             <?php unset($_SESSION['value_email']) ?>
@@ -56,10 +55,10 @@ $section = 'login' ?>
                         </div>
                         <button
                             type="submit"
-                            class="btn btn-primary"
+                            class="btn btn-primary form-control"
                             name="button"
                             value="Login">
-                            Login
+                            <i class="fa-solid fa-check"></i>
                         </button>
 
                     </form>
