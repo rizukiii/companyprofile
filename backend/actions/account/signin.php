@@ -25,12 +25,10 @@ if (isset($_POST['tombol'])) {
             $_SESSION['success'] = "Berhasil Login";
             echo "<script>window.location.href = '../../pages/dashboard/index.php'</script>";
             exit();
-
         }
         $_SESSION['error_password'] = "Password anda salah!";
         echo "<script>window.location.href = '../../pages/account/login.php'</script>";
         exit();
-
     }
     $_SESSION['error_email'] = "Email tidak ditemukan!";
     echo "<script>window.location.href = '../../pages/account/login.php'</script>";
