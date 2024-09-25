@@ -11,6 +11,7 @@ $section = 'dashboard' ?>
 
   <?php include "../../components/breadcrumb.php" ?>
 
+  <?php include "../../components/alert.php" ?>
       <div class="row">
 
         <!-- Left side columns -->

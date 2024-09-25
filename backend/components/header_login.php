@@ -17,16 +17,16 @@
                     </a>
                 </li><!-- End Search Icon-->
 
-                <li class="nav-item dropdown pe-3">
+                <!-- <li class="nav-item dropdown pe-3">
 
                     <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                        <img src="https://i.pinimg.com/originals/70/a2/4d/70a24d0197985f591349cb852ad7427f.jpg" alt="Profile" class="rounded-circle">
-                        <span class="d-none d-md-block dropdown-toggle ps-2"><?= $_SESSION['username'] ?></span>
-                    </a><!-- End Profile Iamge Icon -->
+                        <img src="" alt="Profile" class="rounded-circle">
+                        <span class="d-none d-md-block dropdown-toggle ps-2"></span> -->
+                    <!-- </a>End Profile Iamge Icon -->
 
-                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                    <!-- <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
-                            <h6><?= $_SESSION['email'] ?></h6>
+                            <h6></h6>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
@@ -37,7 +37,7 @@
                                 <i class="bi bi-box-arrow-right"></i>
                                 <span>Sign Out</span>
                             </a>
-                        </li>
+                        </li> -->
                     </ul><!-- End Profile Dropdown Items -->
                 </li><!-- End Profile Nav -->
             </ul>

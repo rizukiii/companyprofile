@@ -9,7 +9,7 @@ $section = 'login' ?>
 
     <?php include "../../components/sidebar.php" ?>
 
-    <?php include "../../components/breadcrumb.php" ?>
+    <?php include "../../components/breadcrumb_login.php" ?>
 
     <div class="row">
         <div class="col-12">
