@@ -29,7 +29,7 @@
                  <h3 class="post-title"><?= $item->judul ?></h3>
                </a>
 
-               <div class="meta d-flex align-items-center">
+               <div class="meta d-flex align-items-center d-block">
                  <div class="d-flex align-items-center">
                    <i class="bi bi-person"></i> <span class="ps-2"><?= $item->penulis ?></span>
                  </div>

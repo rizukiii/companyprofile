@@ -72,12 +72,12 @@
       </a>
     </li><!-- End Register Page Nav -->
 
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link collapsed" href="../PPDB">
         <i class="bi bi-file"></i>
         <span>PPDB</span>
       </a>
-    </li><!-- End Error 404 Page Nav -->
+    </li>End Error 404 Page Nav -->
 
     <li class="nav-item">
       <a class="nav-link collapsed" href="../prestasi">

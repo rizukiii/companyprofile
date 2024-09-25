@@ -22,7 +22,7 @@
 
           <div class="col-12">
             <input type="text"
-             name="name"
+             name="nama"
               class="form-control"
                placeholder="Name"
                 required="">
@@ -39,7 +39,7 @@
           <div class="col-12">
             <input type="text"
              class="form-control"
-              name="Phone"
+              name="phone"
                placeholder="Phone"
                 required="">
           </div>

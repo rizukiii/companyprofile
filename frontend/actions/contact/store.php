@@ -9,15 +9,15 @@ if (isset($_POST['tombol'])) {
 
 
 
-    $query = "INSERT INTO `tb_contact` (`nama`,`email`,`deskripsi`,`phone`,`judul`) VALUES ('$nama','$email','$deskripsi','$phone','$judul')";
+    $query = "INSERT INTO `tb_contact` (`nama`,`email`,`deskripsi`,`phone`) VALUES ('$nama','$email','$deskripsi','$phone')";
 
     $result = $connect->query($query);
 
     if ($result) {
-        echo "<script>window.location.href='../../pages/contact/index.php'</script>";
+        echo "<script>window.location.href='../../pages/index.php'</script>";
         exit();
     } else {
-        echo "<script>window.location.href='../../pages/contact/create.php'</script>";
+        echo "<script>window.location.href='../../pages/index.php'</script>";
         exit();
     }
 }
