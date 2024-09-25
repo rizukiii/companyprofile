@@ -4,5 +4,5 @@ session_start();
 
 $_SESSION['success'] = "Berhasil Logout";
 
-echo "<script>window.location.href = '../pages/login.php'</script>";
+echo "<script>window.location.href = '../../pages/account/login.php'</script>";
 exit();
