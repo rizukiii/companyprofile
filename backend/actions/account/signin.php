@@ -6,7 +6,7 @@ if (isset($_POST['tombol'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $query = "SELECT * FROM `user` WHERE email='$email' LIMIT 1";
+    $query = "SELECT * FROM `tb_user` WHERE email='$email' LIMIT 1";
 
     $result = $connect->query($query);
 
