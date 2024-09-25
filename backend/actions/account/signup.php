@@ -6,7 +6,7 @@ if (isset($_POST['tombol'])) {
     $email = $_POST['email'];
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
-    $query = "INSERT INTO `user` (`username`,`email`,`password`) VALUES ('$username','$email','$password')";
+    $query = "INSERT INTO `tb_user` (`username`,`email`,`password`) VALUES ('$username','$email','$password')";
 
     $result = $connect->query($query);
 
