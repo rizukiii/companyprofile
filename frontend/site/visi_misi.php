@@ -19,10 +19,8 @@
         <div class="container">
 
             <div class="row gy-4 d-flex">
-
                 <?php include "../actions/visi_misi/show_title.php" ?>
-
-                <div class="col-lg-6 mx-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-12 portfolio-item isotope-item filter-remodeling mx-auto" data-aos="fade-up" data-aos-delay="100">
                     <h5>Visi</h5>
                     <p><?= $visi_misi->visi ?></p>
                     <h5>Misi</h5>
