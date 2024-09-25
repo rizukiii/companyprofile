@@ -27,15 +27,15 @@
                         <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
 
                             <div class="post-img position-relative overflow-hidden">
-                                <img src="../../storages/images/blog/<?= $item->foto ?>" class="img-fluid" alt="" style="width: 100%; height: 250px; object-fit:cover">
+                                <img src="../../storages/images/blog/<?= $item->foto ?>" class="img-fluid" alt="" style="width: 600px; height: 250px; object-fit:cover">
                                 <span class="post-date"><?= $item->date ?></span>
                             </div>
 
-                            <div class="post-content d-flex flex-column">
+                            <div class="post-content d-flex flex-column ">
 
                                 <h3 class="post-title"><?= $item->judul ?></h3>
 
-                                <div class="meta d-flex align-items-center">
+                                <div class="meta d-flex align-items-center h-100">
                                     <div class="d-flex align-items-center">
                                         <i class="bi bi-person"></i> <span class="ps-2"><?= $item->penulis ?></span>
                                     </div>

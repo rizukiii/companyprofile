@@ -25,7 +25,7 @@
                             <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
 
                                 <div class="post-img position-relative overflow-hidden">
-                                    <img src="../../storages/images/blog/<?= $blog->foto ?>" class="img-fluid" alt="">
+                                    <img src="../../storages/images/blog/<?= $blog->foto ?>" class="img-fluid" alt="" style="width: 1300px">
                                     <span class="post-date"><?= $blog->date ?></span>
                                 </div>
 
