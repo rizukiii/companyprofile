@@ -46,7 +46,7 @@
          </div><!-- End post item -->
 
        <?php endwhile; ?>
-       <a href="../site/blog.php" class="no blue-line text-center mt-3">Lihat Selengkapnya...</a>
+       <a href="../site/blog.php" class="no blue-line text-center mt-5" data-aos="fade-up" data-aos-delay="100">Lihat Selengkapnya...</a>
      </div>
 
    </div>

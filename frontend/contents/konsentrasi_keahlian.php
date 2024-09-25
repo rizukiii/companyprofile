@@ -32,7 +32,7 @@
         </div><!-- End Card Item -->
 
       <?php endwhile; ?>
-      <a href="../site/konsentrasi_keahlian.php" class="no blue-line text-center mt-3">Lihat Selengkapnya...</a>
+      <a href="../site/konsentrasi_keahlian.php" class="no blue-line text-center mt-5" data-aos="fade-up" data-aos-delay="100">Lihat Selengkapnya...</a>
     </div>
     
   </div>

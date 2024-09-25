@@ -27,13 +27,7 @@
             </div>
           </div><!-- End Portfolio Item -->
           <?php endwhile; ?>
-
       </div><!-- End Portfolio Container -->
-      
-      <a href="../site/prestasi.php" class="no blue-line text-center">Lihat Selengkapnya...</a>
-
-    </div>
-
+    </div><a href="../site/prestasi.php" class="no blue-line text-center mt-5" data-aos="fade-up" data-aos-delay="200">Lihat Selengkapnya...</a>
   </div>
-
 </section><!-- /Projects Section -->
