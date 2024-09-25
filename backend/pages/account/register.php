@@ -17,7 +17,7 @@ $section = 'register' ?>
             <div class="card">
             <?php include "../../actions/account/guestcheck.php" ?>
                 <div class="card-body mt-3">
-                    <form action="../../actions/signup.php" method="post">
+                    <form action="../../actions/account/signup.php" method="post">
                         <div class="mb-3">
                             <label for="username" class="form-label">Username</label>
                             <input

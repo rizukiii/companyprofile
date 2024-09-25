@@ -16,7 +16,7 @@ $section = 'login' ?>
             <div class="card">
                 <div class="card-body mt-3">
                 <?php include "../../components/alert.php" ?>
-                    <form action="../../actions/signin.php" method="post">
+                    <form action="../../actions/account/signin.php" method="post">
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input
