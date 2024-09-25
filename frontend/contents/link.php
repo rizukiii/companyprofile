@@ -44,8 +44,8 @@
 
           <div class="swiper-slide">
             <div class="testimonial-wrap">
-              <div class="testimonial-item">
-                <img src="../../storages/images/link/<?= $item->foto ?>" class="testimonial-img shadow-sm" alt="foto link">
+              <div class="testimonial-item" style="width: 480px; height: 280px">
+                <img src="../../storages/images/link/<?= $item->foto ?>" class="testimonial-img shadow-sm" alt="foto link" style="width: 100px; height: 100px; object-fit: cover; object-positin: center;">
                 <h3><?= $item->nama ?></h3>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
