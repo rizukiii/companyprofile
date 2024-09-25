@@ -75,7 +75,7 @@ $section = 'footerr' ?>
               while ($item = $result->fetch_object()): ?>
                 <tr>
                   <td><?= $no++ ?></td>
-                  <td><?= $item->icon ?></td>
+                  <td><i class="bi <?= $item->icon ?>"></i></a></td>
                   <td><?= $item->link ?></td>
                   <td style="width: 5%;"><a
                       href="detail.php?id=<?= $item->id ?>"
