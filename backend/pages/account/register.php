@@ -5,11 +5,11 @@ $section = 'register' ?>
 
 <body>
 
-    <?php include "../../components/header_login.php" ?>
+    <?php include "../../components/header_auth.php" ?>
 
-    <?php include "../../components/sidebar.php" ?>
+    <?php include "../../components/sidebar_auth.php" ?>
 
-    <?php include "../../components/breadcrumb.php" ?>
+    <?php include "../../components/breadcrumb_auth.php" ?>
 
     <div class="row">
 

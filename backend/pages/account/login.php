@@ -5,11 +5,11 @@ $section = 'login' ?>
 
 <body>
 
-    <?php include "../../components/header_login.php" ?>
+    <?php include "../../components/header_auth.php" ?>
 
-    <?php include "../../components/sidebar.php" ?>
+    <?php include "../../components/sidebar_auth.php" ?>
 
-    <?php include "../../components/breadcrumb_login.php" ?>
+    <?php include "../../components/breadcrumb_auth.php" ?>
 
     <div class="row">
         <div class="col-12">
