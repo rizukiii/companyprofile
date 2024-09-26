@@ -11,7 +11,7 @@
         <span>Dashboard</span>
       </a>
     </li><!-- End Dashboard Nav -->
-
+    <?php if($_SESSION['role'] == 'admin' ) : ?>
     <li class="nav-heading">Layout</li>
 
     <li class="nav-item">
@@ -127,6 +127,7 @@
         <span>Account</span>
       </a>
     </li><!-- End Blank Page Nav -->
+    <?php endif; ?>
   </ul>
 
 </aside><!-- End Sidebar-->

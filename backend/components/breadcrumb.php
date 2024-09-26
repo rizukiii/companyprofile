@@ -9,7 +9,9 @@
                 </ol>
             </nav>
         </div><!-- End Page Title -->
+        <?php if($_SESSION['role'] == 'admin' ) : ?>
         <a href="../../../frontend/pages/index.php" class="btn btn-secondary text-light ms-auto" style="height: 40px;" target="_blank">Ke Front End</a>
+        <?php endif; ?>
     </div>
 
     <section class="section <?= $section ?>">
