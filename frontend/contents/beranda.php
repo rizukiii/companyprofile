@@ -10,7 +10,7 @@
             <?php include "../actions/beranda_carousel/show_title.php" ?>
             <h2><?= $beranda->judul ?></h2>
             <p><?= $beranda->sub_judul ?></p>
-            <a href="#program_unggulan" class="btn-get-started">Get Started</a>
+            <a href="#program_unggulan" class="btn-get-started">Mulai</a>
           </div>
         </div>
       </div>

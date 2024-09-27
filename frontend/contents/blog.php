@@ -24,10 +24,9 @@
              </div>
 
              <div class="post-content d-flex flex-column">
-
-               <a href="">
+               <div style="height: 100px;">
                  <h3 class="post-title"><?= $item->judul ?></h3>
-               </a>
+               </div>
 
                <div class="meta d-flex align-items-center d-block">
                  <div class="d-flex align-items-center">
@@ -38,7 +37,6 @@
                    <i class="bi bi-folder2"></i> <span class="ps-2"><?= $item->sumber ?></span>
                  </div>
                </div>
-
                <hr>
              </div>
 
