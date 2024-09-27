@@ -32,9 +32,9 @@
                             </div>
 
                             <div class="post-content d-flex flex-column ">
-
-                                <h3 class="post-title"><?= $item->judul ?></h3>
-
+                                <div style="height: 80px;">
+                                    <h3 class="post-title"><?= $item->judul ?></h3>
+                                </div>
                                 <div class="meta d-flex align-items-center h-100">
                                     <div class="d-flex align-items-center">
                                         <i class="bi bi-person"></i> <span class="ps-2"><?= $item->penulis ?></span>
