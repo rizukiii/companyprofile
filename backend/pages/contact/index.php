@@ -54,7 +54,7 @@ $section = 'contact' ?>
                 <th>#</th>
                 <th>Nama</th>
                 <th>Email</th>
-                <th>Phone</th>
+                <th>Telp</th>
                 <th>Deskripsi</th>
                 <th>Aksi</th>
                 <th></th>

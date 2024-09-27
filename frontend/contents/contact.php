@@ -40,7 +40,7 @@
             <input type="text"
              class="form-control"
               name="phone"
-               placeholder="Phone"
+               placeholder="Telp"
                 required="">
           </div>
 
