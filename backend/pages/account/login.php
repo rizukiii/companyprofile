@@ -5,14 +5,8 @@ $section = 'login' ?>
 
 <body>
 
-    <?php include "../../components/header_auth.php" ?>
-
-    <?php include "../../components/sidebar_auth.php" ?>
-
-    <?php include "../../components/breadcrumb_auth.php" ?>
-
-    <div class="row">
-        <div class="col-12">
+    <div class="row pt-5 mt-5">
+        <div class="col-4 mx-auto mt-5">
             <div class="card">
                 <div class="card-body mt-3">
                     <?php include "../../components/alert.php" ?>
@@ -65,8 +59,6 @@ $section = 'login' ?>
                 </div>
             </div>
         </div>
-
-        <?php include "../../components/footer.php" ?>
 
         <?php include "../../components/script.php" ?>
 

@@ -24,7 +24,7 @@
               <div class="col-xl-7 d-flex align-items-center">
                 <div class="card-body">
                   <h4 class="card-title"><?= $item->nama ?></h4>
-                  <p><?= substr($item->deskripsi, 0, 250) ?>...</p>
+                  <p><?= substr($item->deskripsi, 0, 150) ?>...</p>
                 </div>
               </div>
             </div>
